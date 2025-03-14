@@ -9,7 +9,7 @@ body{
 
 .card{
 
-        margin: 2px;
+        margin: 20px;
         width: 300px;
         border-radius: 20PX;
         overflow: hidden;
@@ -25,20 +25,45 @@ body{
 
 
 .Card-content{
-
+    
     padding: 35px;
 }
 
 .card h1{
     text-align: center;
-    font-size: 15px;
+    color: blue;
+    font-size: 25px;
 
+}
+
+.card h2{
+
+    font-size: 15px;
 }
 
 
 .tarjeta{
 
     display: flex;
+    justify-content: center;
+
+}
+
+.card:hover{
+
+    background-color: dimgrey;
+    transform: scale(1.05);
+
+}
+
+.card .footer{
+
+    padding: 25px;
+    text-align: center;
+}
+.footer a{
+
+    text-decoration: none;
 }
 
 
